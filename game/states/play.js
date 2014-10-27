@@ -25,7 +25,6 @@
   //    this.ball.body.velocity.x = this.game.rnd.integerInRange(-500,500);
         this.ball.body.velocity.x = 40;
     		this.ball.body.collideWorldBounds = true;
-
       },
       update: function() {
         if(this.ball.body.velocity.x > 0)
