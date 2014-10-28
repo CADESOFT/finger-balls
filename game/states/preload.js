@@ -15,6 +15,10 @@ Preload.prototype = {
     this.load.image('yeoman', 'assets/yeoman-logo.png');
     this.load.image('ball1', 'assets/ball1.png');
     this.load.image('ball2', 'assets/ball2.png');
+    this.load.image('checkpoint', 'assets/checkpoint.png');
+
+     this.load.tilemap('level1', 'assets/tile1.json', null, Phaser.Tilemap.TILED_JSON);
+     this.load.image('gameTiles', 'assets/celianna_tileset_test_map_by_pinkfirefly-d4gfj5x.png');
   },
   create: function() {
     this.asset.cropEnabled = false;
